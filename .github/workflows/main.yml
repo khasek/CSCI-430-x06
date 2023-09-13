@@ -22,4 +22,4 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Build project
-        run: g++ main.cpp -std=c++17 -o exercise06
+        run: g++ hello.cpp -std=c++17 -o exercise06
